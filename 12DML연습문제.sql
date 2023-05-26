@@ -107,4 +107,6 @@ WHEN NOT MATCHED THEN
                    J2.MIN_SALARY,
                    J2.MAX_SALARY);              
                    
-SELECT * FROM JOBS_IT;                   
+SELECT * FROM JOBS_IT;   
+
+COMMIT;
